@@ -9,11 +9,11 @@ body{
 .first-line{
     height: 40px;
     background: #F2542D;
+
 }
 .second-line{
     height: 50px;
     background: #562C2C;
-
 }
 
 
@@ -21,8 +21,15 @@ body{
     list-style: none;
     line-height: 50px;
     margin: 0;
+    float: right;
 }
 
 .menu-list li{
     display: inline;
+    color: white;
+    margin: 0 20px 0 30px;
+}
+
+.second-line img{
+    height: 30px;
 }
