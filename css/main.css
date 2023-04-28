@@ -1,0 +1,59 @@
+
+body{
+    margin: 0;
+}
+.nav-bar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-bar li {
+    margin-right: 10px;
+}
+
+.nav-bar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.second-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.second-nav li {
+    margin-right: 10px;
+}
+
+.second-nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+.nav-bar {
+    width: 100%;
+    height: 50px;
+    padding: 20px;
+    background-color: green;
+}
+
+.second-nav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 20px;
+    background-color: blueviolet;
+}
