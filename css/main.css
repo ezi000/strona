@@ -23,6 +23,9 @@ body{
 .second-line{
     height: 50px;
     background: #78818a;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
 }
 
 .menu-list li{
@@ -49,9 +52,12 @@ body{
     margin-left: 30px;
 }
 
-.obrazek img{
-    height: 100%;
+.obrazek{
+    height: 600px;
     width: 100%;
+    background-image: url("../img/halo.jpg");
+    background-position-y: center;
+
 }
 
 
