@@ -2,6 +2,7 @@
 body{
     margin: 0;
     background: #F1EDEE;
+    font-family: 'Lato', sans-serif;
 }
 .nav-bar {
     list-style: none;
@@ -21,7 +22,7 @@ body{
 
 .second-line{
     height: 50px;
-    background: #686968;
+    background: #78818a;
 }
 
 .menu-list li{
@@ -46,6 +47,30 @@ body{
     height: 40px;
     width: 40px;
     margin-left: 30px;
+}
+
+.obrazek img{
+    height: 100%;
+    width: 100%;
+}
+
+
+.napis1 h1{
+    position: absolute;
+    top: 220px;
+    left: 150px;
+    color: white;
+    font-size: 50px;
+}
+.napis2 h1{
+    position: absolute;
+    top: 300px;
+    left: 150px;
+    color: white;
+    font-size: 50px;
+}
+.opis{
+    padding: 20px;
 }
 
 
