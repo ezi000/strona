@@ -25,6 +25,8 @@ body{
     background: #78818a;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+    justify-content: space-between;
+    align-items: center;
 
 }
 
@@ -36,6 +38,7 @@ body{
     flex-direction: row;
     gap: 30px;
     margin: 0;
+    margin-right: 40px;
 
 
 }
