@@ -1,35 +1,83 @@
+
 body{
-    background: #F5DFBB;
     margin: 0;
+    background: #F1EDEE;
+    font-family: 'Lato', sans-serif;
 }
-.nav-bar{
+.nav-bar {
     width: 100%;
-    height: 50px;
-}
-.first-line{
-    height: 40px;
-    background: #F2542D;
 
 }
-.second-line{
+
+.first-line{
     height: 50px;
-    background: #562C2C;
+    background: #F1EDEE;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.second-line{
+    display: flex;
+    height: 50px;
+    background: #78818a;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    justify-content: space-between;
+    align-items: center;
+
 }
 
 
 .menu-list{
+    display: flex;
     list-style: none;
-    line-height: 50px;
+    justify-content: flex-end;
+    flex-direction: row;
+    gap: 30px;
     margin: 0;
-    float: right;
-}
+    margin-right: 40px;
 
-.menu-list li{
-    display: inline;
-    color: white;
-    margin: 0 20px 0 30px;
-}
 
+}
 .second-line img{
-    height: 30px;
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 20px;
 }
+.first-line i{
+    padding: 5px;
+    margin-left: 30px;
+}
+
+.obrazek{
+    height: 600px;
+    width: 100%;
+    background-image: url("../img/halo.jpg");
+    background-position-y: center;
+
+}
+
+
+.napis1 h1{
+    position: absolute;
+    top: 220px;
+    left: 150px;
+    color: white;
+    font-size: 50px;
+}
+.napis2 h1{
+    position: absolute;
+    top: 300px;
+    left: 150px;
+    color: white;
+    font-size: 50px;
+}
+.opis{
+    padding: 20px;
+}
+
+
