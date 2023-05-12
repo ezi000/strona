@@ -52,7 +52,7 @@ body{
 }
 
 .obrazek{
-    height: 605px;
+    height: 615px;
     width: 100%;
     background-image: url("../img/halo.jpg");
     background-position-y: center;
@@ -93,7 +93,7 @@ justify-content: center;
 
 
 .obraz{
-    height: 605px;
+    height: 600px;
     background-image: url("../img/tło.jpg");
     background-position-y: center;
     width: 50%;
